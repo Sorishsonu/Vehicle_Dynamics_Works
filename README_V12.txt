@@ -1,0 +1,1 @@
+VDMS V12 complete code package. Stop server, back up attendance.db, extract files into existing V12 folder and replace code files. Keep attendance.db. Run START.bat. Google Meet link is fixed and attendance remains separate. Meetings can be scheduled any day. Local HTTP is unencrypted; use trusted Wi-Fi. Full curriculum and optional modules are not included.

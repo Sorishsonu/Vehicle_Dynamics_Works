@@ -1,0 +1,1 @@
+const base=Number(document.getElementById("clock").dataset.time); const start=performance.now(); function tick(){document.getElementById("clock").textContent=new Date(base+performance.now()-start).toLocaleString("en-IN",{timeZone:"Asia/Kolkata",dateStyle:"full",timeStyle:"medium"})+" IST";} tick();setInterval(tick,1000);
