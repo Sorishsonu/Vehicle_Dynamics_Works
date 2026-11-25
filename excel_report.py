@@ -4,7 +4,7 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.utils import get_column_letter
 
-def designation(role):
+def designation(rov le):
  return {"admin":"VD Lead / Administrator","co-lead":"Co-Lead","junior":"Junior Engineer","trainee":"Trainee Engineer"}.get(role,role)
 
 def report(c,q,now):
